@@ -1,6 +1,7 @@
-mod abs_sign;
+mod max_num;
 
 fn main() {
     println!("Hello, world!");
-    println!("{}", abs_sign::run(-5))
+    let list = vec![1, 5, 3];
+    println!("{}", max_num::run(list))
 }
