@@ -1,7 +1,8 @@
-mod min_num;
+mod find_same_name;
+// mod min_num;
 
 fn main() {
     println!("Hello, world!");
-    let list = vec![1, 5, 3, 5, 9];
-    println!("{}", min_num::run(list))
+    let list = vec!["tom", "jerry", "tom", "jerry"];
+    println!("{:?}", find_same_name::run(list))
 }
