@@ -1,5 +1,5 @@
 pub fn run() -> i32 {
-    fibonacci(3)
+    fibonacci(10)
 }
 
 pub fn fibonacci(n: i32) -> i32 {
